@@ -16,5 +16,10 @@ namespace ActionsConsole
                     return false;
             return true;
         }
+
+        public int Add(int x, int y)
+        {
+            return x + y;
+        }
     }
 }
