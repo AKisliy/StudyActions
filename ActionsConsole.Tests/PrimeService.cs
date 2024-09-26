@@ -12,7 +12,7 @@ namespace ActionsConsole.Tests
         public void IsPrimeShould()
         {
             Calculator calc = new Calculator();
-            var res = calc.IsPrime(2);
+            var res = calc.IsPrime(4);
             Assert.True(!res);
         }
     }
